@@ -1,0 +1,26 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "npm": "9.4.0",
+    "node": "v18.13.0"
+  },
+  "keywords": [],
+  "author": "Serhii Izotov",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.9"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
